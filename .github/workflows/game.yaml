@@ -19,5 +19,5 @@ jobs:
 
       - uses: bluefireteam/flutter-gh-pages@v8
         with:
-          baseHref: https://github.com/planemath/frontend.git
+          baseHref: https://github.com/planemath/frontend/
           webRenderer: canvaskit
