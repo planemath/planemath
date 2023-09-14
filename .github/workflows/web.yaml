@@ -31,7 +31,7 @@ jobs:
           git config --global user.email joaopedrorafael19@gmail.com
           git config --global user.name JoaoRafa19
           git status
-          git remote add origin https://${{secrets.token}}@github.com/planemath/frontend.git
+          git remote add gh https://${{secrets.token}}@github.com/planemath/frontend.git
           git checkout -b gh-pages
           
           flutter build web --base-href=/frontend/ --web-renderer canvaskit --no-tree-shake-icons --release 
@@ -39,4 +39,4 @@ jobs:
           git add --all
           git commit -m "update"
           
-          git push origin gh-pages -f
+          git push gh gh-pages -f
