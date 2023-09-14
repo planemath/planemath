@@ -1,4 +1,4 @@
-name: Flutter Web
+name: Deploy Web
 
 on:
   push:
@@ -23,17 +23,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Web
-        run: flutter build web --release --web-renderer canvaskit --no-tree-shake-icons 
+        run: flutter build web --base-href=/frontend/ --web-renderer canvaskit --no-tree-shake-icons --release 
 
-      - name: Deploy
-        run: |
-          cd build/web
-          git init
-          git config --global user.email joaopedrorafael19@gmail.com
-          git config --global user.name JoaoRafa19
-          git status
-          git remote add origin https://${{secrets.token}}@github.com/planemath/frontend.git
-          git checkout -b gh-pages
-          git add --all
-          git commit -m "update"
-          git push origin gh-pages -f
+      - name: Copy files
+        run: cp -r build/web/ ./docs
