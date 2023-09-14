@@ -1,6 +1,6 @@
 # planemath
 
-A new Flutter project.
+Educational math game build in flutter
 
 ## Getting Started
 
