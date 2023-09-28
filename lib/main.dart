@@ -12,5 +12,17 @@ void main() async {
 
   Planemath game = Planemath();
 
-  runApp(GameWidget(game: kDebugMode ? Planemath() : game));
+  runApp(GameWidget(
+      game: kDebugMode ? Planemath() : game,
+      loadingBuilder: (context) => Center(
+            child: Container(
+              child: const Column(
+                children: [
+                  Text('Planemath'),
+                  Text('Loading...'),
+                  CircularProgressIndicator(),
+                ],
+              ),
+            ),
+          )));
 }
