@@ -9,4 +9,5 @@ class DefaultConstants {
 
   static double get width => 640;
   static double get height => 360;
+  static double get tileSize => 16;
 }

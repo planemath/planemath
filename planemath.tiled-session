@@ -1,0 +1,87 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Users/jabir/Downloads/kenney_pixelshmup/Tilemap/level_01.tmx": {
+            "expandedGroupLayers": [
+                5
+            ],
+            "scale": 1.4220312499999999,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 271.44269860454904,
+                "y": 242.96231183386442
+            }
+        },
+        "C:/Users/jabir/Downloads/kenney_pixelshmup/Tilemap/level_01.tmx#tiles_packed": {
+            "scaleInDock": 1.5
+        },
+        "assets/tiled/level_01.tmx": {
+            "expandedGroupLayers": [
+                5
+            ],
+            "scale": 1.4220312499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 272.1459180309856,
+                "y": 242.96231183386442
+            }
+        },
+        "assets/tiled/level_01.tmx#tiles_packed": {
+            "scaleInDock": 1.5
+        },
+        "assets/tiles/level_01.tmx": {
+            "scale": 1.358203125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.27610008628136,
+                "y": 184.43485763589302
+            }
+        },
+        "assets/tiles/level_01.tmx#bg1": {
+            "scaleInDock": 1
+        },
+        "assets/tiles/level_01.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "assets/tiles/level_01.tmx#bg3": {
+            "scaleInDock": 1
+        },
+        "assets/tiles/level_01.tmx#bg4": {
+            "scaleInDock": 1
+        },
+        "project/backgrund1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        }
+    },
+    "last.imagePath": "C:/Users/jabir/OneDrive/Dev/Flame/planemath/planemath/assets/images/Tilemap",
+    "map.height": 23,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 40,
+    "openFiles": [
+    ],
+    "project": "planemath.tiled-project",
+    "property.type": "int",
+    "recentFiles": [
+        "C:/Users/jabir/Downloads/kenney_pixelshmup/Tilemap/level_01.tmx",
+        "assets/tiles/level_01.tmx",
+        "project/backgrund1.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
