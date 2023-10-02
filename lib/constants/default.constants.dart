@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 class DefaultConstants {
   static DefaultConstants? _instance;
   // Avoid self instance
@@ -10,4 +12,10 @@ class DefaultConstants {
   static double get width => 640;
   static double get height => 360;
   static double get tileSize => 16;
+
+}
+
+class DefaultColors {
+
+  static Color get background => const Color.fromARGB(255, 86, 204, 217);
 }
