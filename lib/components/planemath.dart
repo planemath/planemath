@@ -9,7 +9,8 @@ import 'package:planemath/components/airplane.dart';
 import 'package:planemath/components/level.dart';
 import 'package:planemath/constants/default.constants.dart';
 
-class Planemath extends FlameGame with HasKeyboardHandlerComponents {
+class Planemath extends FlameGame
+    with HasKeyboardHandlerComponents, TapCallbacks {
   Planemath({this.isMobile = false}) : super();
   final bool isMobile;
 
@@ -18,7 +19,8 @@ class Planemath extends FlameGame with HasKeyboardHandlerComponents {
 
   late CameraComponent cam;
 
-  Color backgroundColor() => Color.fromARGB(255, 86, 204, 217);
+  @override
+  Color backgroundColor() => DefaultColors.background;
 
   @override
   FutureOr<void> onLoad() async {
@@ -43,6 +45,4 @@ class Planemath extends FlameGame with HasKeyboardHandlerComponents {
       addAll([cam, world]);
     });
   }
-
-  
 }
