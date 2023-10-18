@@ -2,18 +2,23 @@
 
 Educational math game build in flutter
 
-## Getting Started
+## Project Rules
 
-This project is a starting point for a Flutter application.
+     Dev FLow: 
+      - Atribuição de Issue
+      - Revisão da Issue pré-execução
+      - Revisão do resultado da Issue
 
-A few resources to get you started if this is your first Flutter project:
+    Branches:
+      - Identificação: ´[0000 - NNNN - TYPE]´
+          * Número da Issue
+          * Nome da Branch
+          * Tipo de Branch
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Pull Requests:
+      -  Identificação: `[0000 - CONTENT]`
+          * Número da Issue
+          * Descritivo do Pull Request
 
 
 ## Deploy process
